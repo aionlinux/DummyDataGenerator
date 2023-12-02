@@ -24,7 +24,7 @@ def generate_timeshare_data(api_key, complete=True):
         "interest_level": random.choice(["High", "Medium", "Low"]),
     }
 
-    # Generate realistic notes using OpenAI GPT-4 Turbo, if complete
+    # Generate realistic notes using OpenAI GPT-3.5 Turbo, if complete
     if complete or random.random() > 0.1:  # 90% chance to include notes
         try:
             print("Calling OpenAI API for generating notes...")
