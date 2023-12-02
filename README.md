@@ -1,6 +1,6 @@
 # DummyDataGenerator
 
-This script generates dummy data for timeshare clients and interactions, with the assistance of gpt-3.5-turbo, which can be used for testing data processing pipelines, machine learning models, or any other system that requires sample data for timeshare sales scenarios.
+This script provides a straightforward method for generating placeholder data that mimics the interactions between sales staff and leads in a timeshare context. It's suitable for anyone needing to populate databases or systems with fictitious yet plausible data for development, testing, or demonstration purposes.
 
 ## Features
 
