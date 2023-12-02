@@ -34,9 +34,9 @@ def generate_timeshare_data(api_key, complete=True):
                     "role": "system", 
                     "content": ("Write a concise note summarizing a customer's response in a timeshare sales "
                                 "interaction, such as their interest level, any specific requests they made, "
-                                "or intentions they expressed about the purchase.")
+                                "or intentions they expressed about the purchase. Make it appear real and fairly unique.")
                 }],
-                max_tokens=50)
+                max_tokens=200)
             data["notes"] = response['choices'][0]['message']['content'].strip()
             print("Notes generated successfully.")
         except openai.error.OpenAIError as e:
