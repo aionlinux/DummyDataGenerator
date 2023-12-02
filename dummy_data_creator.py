@@ -99,5 +99,5 @@ def generate_documents(num_docs, output_directory):
     print("All documents generated.")
 
 # Example usage
-output_directory = "./results"
+output_directory = "/PATH/TO/YOUR/DESIRED/OUTPUT/DIRECTORY"
 generate_documents(10, output_directory)
